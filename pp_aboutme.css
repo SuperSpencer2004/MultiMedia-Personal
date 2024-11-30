@@ -1,0 +1,91 @@
+
+/* Styles for screens smaller than or equal to 400px wide */
+@media (max-width: 900px) {
+   section#main {
+      padding: 1em;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: "photo"
+                           "descript";
+      grid-gap: 10px;
+      /* border: 1px dashed rgb(153, 255, 0); */
+   }
+
+   section#main .image {
+      grid-area: photo;
+      font-size: 5em;
+      text-align: center;
+      /* border: 1px dashed red; */
+   }
+
+   section#main .logo {
+      display: none;
+   }
+
+   section#main .descript {
+      grid-area: descript;
+      /* border: 1px dashed red; */
+      background-color: bisque;
+      padding: 1em;
+
+      p {
+         line-height: 1.5;
+         /* Increases the space between lines to 1.5 times the font size */
+      }
+   }
+
+   nav.horizontalNavigation li {
+      width: 20%;
+      float: left;
+      font-size: 0.8em;
+   }
+
+}
+
+@media (min-width: 901px) {
+   section#main {
+      padding: 1em;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      grid-template-areas: "photo photo"
+                           "logo descript";
+      grid-gap: 10px;
+      /* border: 1px dashed rgb(153, 255, 0); */
+   }
+
+   section#main .image {
+      grid-area: photo;
+      font-size: 5em;
+      text-align: center;
+      /* border: 1px dashed red; */
+   }
+
+
+   section#main .logo {
+      grid-area: logo;
+
+      /* border: 1px dashed yellow; */
+      img {
+         width: 100%;
+      }
+   }
+
+   section#main .descript {
+      grid-area: descript;
+      /* border: 1px dashed red; */
+      background-color: bisque;
+      padding: 1em;
+
+      p {
+         line-height: 1;
+         /* Increases the space between lines to 1.5 times the font size */
+      }
+   }
+
+   .image img {
+      width: 100%;
+   }
+
+}

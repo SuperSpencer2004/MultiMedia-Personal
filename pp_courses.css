@@ -1,0 +1,46 @@
+#main {
+    background-color: rgb(37, 72, 125);
+    padding-left: 7%;
+    padding-top: 4%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    /* height: 500px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    /* width: 50%; */
+    background-color: rgb(37, 72, 125);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+
+}
+
+html {
+    width: 75%;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(239, 220, 156);
+}
+
+#main>img {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: 400px;
+    min-width: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1100px) {
+    #main>img {
+        max-width: 90%;
+    }
+
+}

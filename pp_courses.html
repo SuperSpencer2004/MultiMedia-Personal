@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="chocolate, chocolatier, cocoa, cacao, desserts" />
+    <title>Pandaisia Chocolates</title>
+    <link href="pp_reset.css" rel="stylesheet" />
+    <link href="pp_styles1.css" rel="stylesheet" />
+    <link href="pp_courses.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+
+        <img src="FunnyButton.png" alt="" id="switch" onclick="ON()">
+        <div id="header_title">Reza's Page</div>
+        <!-- <img src="https://picsum.photos/200/50" alt="Pandaisia Chocolates" /> -->
+        <nav class="horizontalNavigation" id="hNav">
+            <ul>
+                <li><a href="pp_home.html" id="a">Home</a></li>
+                <li><a href="pp_portfolio.html" id="a">My Portfolio</a></li>
+                <li><a href="pp_courses.html" id="a">My Courses</a></li>
+                <li><a href="pp_aboutme.html" id="a">About Me</a></li>
+                <li><a href="pp_contact.html" id="a">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main">
+
+        <img src="FundamentalsPicture.png" alt="Funda" id="pic" />
+
+
+        <p>Select Course</p>
+        <br>
+        <section id="textChange">
+            <button id="picLeft" onclick="itemLeft(pic.alt)">&lt</button>
+            <button id="Altpic" onclick="AltitemLeft(pic.alt)" hidden="hidden">&lt</button>
+            <p2 id="className">Fundamentals Of Data Analytics</p2>
+            <button id="picRight" onclick="itemRight(pic.alt)">&gt</button>
+            <button id="Altpic2" onclick="AltitemRight(pic.alt)" hidden="hidden">&gt</button>
+
+
+        </section>
+
+    </section>
+
+    <footer id="foot">
+        <nav class="verticalNavigation">
+            <h1>Weblogs</h1>
+            <ul>
+                <li><a href="#">Most Recent</a></li>
+                <li><a href="#">Top Views</a></li>
+                <li><a href="#">Educational</a></li>
+            </ul>
+        </nav>
+        <nav class="verticalNavigation">
+            <h1>Social Media</h1>
+            <ul>
+                <li><a href="https://x.com/"><img src="twittericon.png" alt="" />Twitter</a></li>
+                <li><a href="https://www.linkedin.com"><img src="linkedinicon.png" alt="" />LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/"><img src="fbicon.png" alt="" />Instagram</a></li>
+            </ul>
+        </nav>
+        <nav class="verticalNavigation">
+            <h1>Services</h1>
+            <ul>
+                <li><a href="#">Cycling Coaching</a></li>
+                <li><a href="#">Programming Courses Tutoring</a></li>
+                <li><a href="#">Painting</a></li>
+                <li><a href="#">Photography</a></li>
+            </ul>
+        </nav>
+        <section id="contactInfo">
+            <h1>My Location &amp; Contacts</h1>
+            <p>North Vancouver</p>
+            <p>Toll Free: 1-800-123-1234</p>
+        </section>
+    </footer>
+
+
+</body>
+
+<script src="SpencerMode.js"></script>
+<script src="pp_contact.js"></script> <!--Named it wrong, whoops! -->
+
+
+</html>

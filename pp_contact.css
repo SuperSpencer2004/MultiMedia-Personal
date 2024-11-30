@@ -1,0 +1,40 @@
+#main {
+    color: white;
+    padding-left: 7%;
+    padding-top: 4%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+
+}
+
+form {
+    /* border: 2px red dashed; */
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+#emailid {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#commentid {
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#submit {
+    background-color: rgb(118, 197, 118);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-color: rgb(118, 197, 118);
+    border-radius: 15px;
+}
